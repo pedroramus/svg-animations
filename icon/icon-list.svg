@@ -1,0 +1,50 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="100%" width="100%"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve" id="icon">
+<defs>
+    <style type="text/css">
+        .lines{fill:#FFFFFF;stroke:#D1D2D3;stroke-width:8;stroke-miterlimit:10;}
+        .st1{fill:none;stroke:#D1D2D3;stroke-width:8;stroke-miterlimit:10;}
+        
+        #details { display: block; }
+        
+        @media screen and (max-width: 150px) {
+            #details {
+                display: none;
+            }
+        }
+        #icon:hover .lines {
+            fill: #262262;
+            stroke: white;
+            transition: 0.4s;
+        } 
+        #icon.clicktrigger .lines {
+            fill: white !important;
+            stroke: #262262;
+            transition: 0.4s;
+        }
+    </style>
+    
+    <script>
+        var clickAnim = document.querySelector('#icon');
+        clickAnim.addEventListener('click', function(){
+            this.classList.toggle('clicktrigger');
+        });
+    </script>
+</defs>
+<g id="iconcircle">
+	<ellipse id="XMLID_1_" class="lines" cx="150" cy="151.197" rx="133.055" ry="131.853"/>
+</g>
+<g id="shape">
+	<path id="XMLID_8_" class="lines" d="M215.616,111.192H84.384c-6.6,0-12-5.4-12-12V84.384c0-6.6,5.4-12,12-12h131.231
+		c6.6,0,12,5.4,12,12v14.808C227.616,105.792,222.216,111.192,215.616,111.192z"/>
+	<path id="XMLID_11_" class="lines" d="M215.616,169.404H84.384c-6.6,0-12-5.4-12-12v-14.808c0-6.6,5.4-12,12-12h131.231
+		c6.6,0,12,5.4,12,12v14.808C227.616,164.004,222.216,169.404,215.616,169.404z"/>
+	<path id="XMLID_13_" class="lines" d="M215.616,227.616H84.384c-6.6,0-12-5.4-12-12v-14.808c0-6.6,5.4-12,12-12h131.231
+		c6.6,0,12,5.4,12,12v14.808C227.616,222.216,222.216,227.616,215.616,227.616z"/>
+</g>
+<g id="details">
+	<line id="XMLID_9_" class="st1 lines" x1="127.824" y1="91.788" x2="205.44" y2="91.788"/>
+	<line id="XMLID_10_" class="st1 lines" x1="127.824" y1="150" x2="205.44" y2="150"/>
+	<line id="XMLID_12_" class="st1 lines" x1="127.824" y1="208.212" x2="205.44" y2="208.212"/>
+</g>
+</svg>

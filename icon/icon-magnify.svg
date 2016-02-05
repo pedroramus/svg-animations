@@ -1,0 +1,51 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" width="100%" height="100%" xml:space="preserve" id="icon">
+<defs>
+    <style type="text/css">
+        .lines{fill:#FFFFFF;stroke:#D1D2D3;stroke-width:8;stroke-miterlimit:10;}
+        
+        #details { display: block;}
+        
+        @media screen and (max-width: 150px) {
+            #details {
+                display: none;
+            }
+        }
+        
+        #icon:hover .lines {
+            fill: #262262;
+            stroke: white;
+            transition: 0.4s;
+        }
+        #icon.clicktrigger .lines {
+            fill: white !important;
+            stroke: #262262;
+        transition: 0.4s;
+        }
+    </style>
+    
+    <script>
+        var clickAnim = document.querySelector('#icon');
+        clickAnim.addEventListener('click', function(){
+            this.classList.toggle('clicktrigger');
+        });
+    </script>
+</defs>
+<g id="Layer_1">
+</g>
+<g id="iconcircle">
+	<ellipse id="XMLID_1_" class="lines" cx="150" cy="151.197" rx="133.055" ry="131.853"/>
+</g>
+<g id="shape">
+	<path id="XMLID_2_" class="lines" d="M144.016,82.746c19.995,19.815,19.995,51.941,0,71.756s-52.415,19.815-72.41,0
+		s-19.995-51.941,0-71.756S124.02,62.931,144.016,82.746z"/>
+	<path id="XMLID_3_" class="lines" d="M218.638,228.45L218.638,228.45c-4.978,4.933-13.124,4.933-18.102,0l-63.359-62.786
+		c-4.978-4.933,4.073-4.036,9.051-8.969l0,0c4.978-4.933,4.073-13.903,9.051-8.969l63.359,62.786
+		C223.616,215.444,223.616,223.517,218.638,228.45z"/>
+</g>
+<g id="details">
+	<path id="XMLID_4_" class="lines" d="M88.238,138.02c-10.81-10.712-10.81-28.08,0-38.792"/>
+	<path id="XMLID_7_" class="lines" d="M163.755,156.124l-10.328-10.235c-0.811-0.804-4.073,4.036-9.051,8.969l0,0
+		c-4.978,4.933-9.863,8.165-9.051,8.969l10.328,10.235L163.755,156.124z"/>
+</g>
+</svg>
