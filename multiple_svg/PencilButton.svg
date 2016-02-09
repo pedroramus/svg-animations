@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{stroke:#000000;stroke-width:9;stroke-miterlimit:10;}
+	.st1{stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+</style>
+<g id="Container">
+	<circle id="XMLID_1_" class="st0" cx="150" cy="150" r="126"/>
+</g>
+<g id="Pencil">
+	<path id="PencilShape_1_" class="st1" d="M127.243,218.871l69.609-69.609h10.709v-10.709h10.709v-10.709l10.709-10.709
+		l-42.836-42.836l-10.709,10.709h-10.709v10.709h-10.709v10.709l-69.609,69.609c0,42.655,0,42.655,0,42.655
+		S126.494,218.871,127.243,218.871z"/>
+</g>
+<g id="Details">
+	<line id="XMLID_27_" class="st1" x1="164.725" y1="95.717" x2="180.788" y2="111.78"/>
+	<line id="XMLID_26_" class="st1" x1="154.016" y1="106.426" x2="170.079" y2="122.49"/>
+	<line id="XMLID_25_" class="st1" x1="218.27" y1="127.844" x2="186.143" y2="95.717"/>
+	<line id="XMLID_24_" class="st1" x1="180.788" y1="143.908" x2="121.888" y2="202.808"/>
+	<polyline id="XMLID_21_" class="st1" points="116.498,218.907 113.79,216.2 89.749,192.159 84.37,186.78 	"/>
+</g>
+</svg>
