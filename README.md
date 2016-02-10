@@ -3,3 +3,5 @@
 ### Loading responsive svg
 
 ### Responsive icons svg: menu and search
+
+### Multiple animations

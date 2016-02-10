@@ -1,0 +1,39 @@
+h1, h2, h3, p {
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+
+h1, h2 {
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+.container {
+    padding: 120px 0;
+}
+#blue-container {
+    background: #000 url(../images/bg.png) repeat-x;
+    padding: 120px 0;
+}
+
+#grey-container {
+    background: #FFF url(../images/bg2.png);
+    padding: 120px 0;
+}
+
+.alc {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
